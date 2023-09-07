@@ -1,0 +1,89 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreLayer", "CoreLayer", "{A86C2135-1895-420A-BDDC-1163B21F7C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLayer", "CommonLayer", "{066C2928-63F9-4AE1-8AEA-10B2107C23BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraLayer", "InfraLayer", "{CB54A543-D98D-4C81-BEEF-AB64D723DF62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{EDFE0592-A32F-4D42-9DBD-E73361BCD4D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{B569335B-FCEE-4AFB-ADB6-59B443E68124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricMirror.Domain", "BiometricMirror.Domain\BiometricMirror.Domain.csproj", "{AB8CD80E-C372-41CA-862C-10297AF032CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricMirror.Shared", "BiometricMirror.Shared\BiometricMirror.Shared.csproj", "{44024913-5A06-4B5F-8EB9-488A37F8CD9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricMirror.Application", "BiometricMirror.Application\BiometricMirror.Application.csproj", "{03A1430C-DBD7-41A5-BA48-6694F7E7506B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricMirror.Infra.Shared", "BiometricMirror.Infra.Shared\BiometricMirror.Infra.Shared.csproj", "{C31A144A-27F0-488D-8B36-4DBA4F28423C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricMirror.Infrastructure", "BiometricMirror.Infrastructure\BiometricMirror.Infrastructure.csproj", "{D5C35402-2364-4732-A2AE-6C49FF697C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricMirror.API", "BiometricMirror.API\BiometricMirror.API.csproj", "{C017BF5E-20DC-4F5E-80F2-135D75C3EAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricMirror.UI.Infrastructure", "BiometricMirror.UI.Infrastructure\BiometricMirror.UI.Infrastructure.csproj", "{8F30F54E-F971-476F-85B7-18994764B94C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricMirror.MAUI", "BiometricMirror.MAUI\BiometricMirror.MAUI.csproj", "{94DAAF54-DC1F-4619-B01E-F55BCEF58A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB8CD80E-C372-41CA-862C-10297AF032CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8CD80E-C372-41CA-862C-10297AF032CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8CD80E-C372-41CA-862C-10297AF032CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8CD80E-C372-41CA-862C-10297AF032CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44024913-5A06-4B5F-8EB9-488A37F8CD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44024913-5A06-4B5F-8EB9-488A37F8CD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44024913-5A06-4B5F-8EB9-488A37F8CD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44024913-5A06-4B5F-8EB9-488A37F8CD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A1430C-DBD7-41A5-BA48-6694F7E7506B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A1430C-DBD7-41A5-BA48-6694F7E7506B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A1430C-DBD7-41A5-BA48-6694F7E7506B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A1430C-DBD7-41A5-BA48-6694F7E7506B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31A144A-27F0-488D-8B36-4DBA4F28423C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31A144A-27F0-488D-8B36-4DBA4F28423C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31A144A-27F0-488D-8B36-4DBA4F28423C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31A144A-27F0-488D-8B36-4DBA4F28423C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C35402-2364-4732-A2AE-6C49FF697C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C35402-2364-4732-A2AE-6C49FF697C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C35402-2364-4732-A2AE-6C49FF697C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C35402-2364-4732-A2AE-6C49FF697C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C017BF5E-20DC-4F5E-80F2-135D75C3EAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C017BF5E-20DC-4F5E-80F2-135D75C3EAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C017BF5E-20DC-4F5E-80F2-135D75C3EAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C017BF5E-20DC-4F5E-80F2-135D75C3EAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F30F54E-F971-476F-85B7-18994764B94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F30F54E-F971-476F-85B7-18994764B94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F30F54E-F971-476F-85B7-18994764B94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F30F54E-F971-476F-85B7-18994764B94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DAAF54-DC1F-4619-B01E-F55BCEF58A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DAAF54-DC1F-4619-B01E-F55BCEF58A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DAAF54-DC1F-4619-B01E-F55BCEF58A9A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{94DAAF54-DC1F-4619-B01E-F55BCEF58A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DAAF54-DC1F-4619-B01E-F55BCEF58A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DAAF54-DC1F-4619-B01E-F55BCEF58A9A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB8CD80E-C372-41CA-862C-10297AF032CE} = {A86C2135-1895-420A-BDDC-1163B21F7C7D}
+		{44024913-5A06-4B5F-8EB9-488A37F8CD9E} = {066C2928-63F9-4AE1-8AEA-10B2107C23BC}
+		{03A1430C-DBD7-41A5-BA48-6694F7E7506B} = {A86C2135-1895-420A-BDDC-1163B21F7C7D}
+		{C31A144A-27F0-488D-8B36-4DBA4F28423C} = {CB54A543-D98D-4C81-BEEF-AB64D723DF62}
+		{D5C35402-2364-4732-A2AE-6C49FF697C2E} = {CB54A543-D98D-4C81-BEEF-AB64D723DF62}
+		{C017BF5E-20DC-4F5E-80F2-135D75C3EAE7} = {EDFE0592-A32F-4D42-9DBD-E73361BCD4D9}
+		{8F30F54E-F971-476F-85B7-18994764B94C} = {B569335B-FCEE-4AFB-ADB6-59B443E68124}
+		{94DAAF54-DC1F-4619-B01E-F55BCEF58A9A} = {B569335B-FCEE-4AFB-ADB6-59B443E68124}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DC40648-B418-4356-91BE-6CD1BB3A7489}
+		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
